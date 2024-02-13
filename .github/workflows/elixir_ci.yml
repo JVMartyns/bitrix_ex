@@ -5,6 +5,10 @@ on: pull_request
 permissions:
   contents: read
 
+env:
+  MIX_ENV: test
+  ImageOS: ubuntu20
+
 jobs:
   build:
     name: Build and test
