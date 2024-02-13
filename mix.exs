@@ -45,6 +45,7 @@ defmodule BitrixEx.MixProject do
   defp releases do
     [
       bitrix_ex: [
+        version: "0.1.0",
         include_executables_for: [:unix],
         steps: [:assemble, :tar]
       ]
